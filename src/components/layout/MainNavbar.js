@@ -16,15 +16,7 @@ class MainNavbar extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header waterfall>
-            <HeaderRow title="Title">
-              <Textfield
-                value=""
-                onChange={() => {}}
-                label="Search2"
-                expandable
-                expandableIcon="search"
-              />
-            </HeaderRow>
+            <HeaderRow title="Title" />
             <HeaderRow>
               <Navigation>
                 <a href="#">Link</a>
