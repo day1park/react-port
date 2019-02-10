@@ -4,7 +4,8 @@ import {
   Navigation,
   Drawer,
   Content,
-  Textfield
+  Textfield,
+  HeaderRow
 } from "react-mdl";
 
 import React, { Component } from "react";
@@ -12,16 +13,26 @@ import React, { Component } from "react";
 class MainNavbar extends Component {
   render() {
     return (
-      <div style={{ height: "300px", position: "relative" }}>
-        <Layout fixedHeader fixedDrawer>
-          <Header title="Title">
-            <Textfield
-              value=""
-              onChange={() => {}}
-              label="Search"
-              expandable
-              expandableIcon="search"
-            />
+      <div className="demo-big-content">
+        <Layout>
+          <Header waterfall>
+            <HeaderRow title="Title">
+              <Textfield
+                value=""
+                onChange={() => {}}
+                label="Search2"
+                expandable
+                expandableIcon="search"
+              />
+            </HeaderRow>
+            <HeaderRow>
+              <Navigation>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+              </Navigation>
+            </HeaderRow>
           </Header>
           <Drawer title="Title">
             <Navigation>
@@ -31,7 +42,9 @@ class MainNavbar extends Component {
               <a href="#">Link</a>
             </Navigation>
           </Drawer>
-          <Content />
+          <Content>
+            <div className="page-content" />
+          </Content>
         </Layout>
       </div>
     );
