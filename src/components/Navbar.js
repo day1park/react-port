@@ -10,7 +10,7 @@ import {
 
 import React, { Component } from "react";
 
-class MainNavbar extends Component {
+class Navbar extends Component {
   render() {
     return (
       <div className="demo-big-content">
@@ -19,19 +19,19 @@ class MainNavbar extends Component {
             <HeaderRow title="Title" />
             <HeaderRow>
               <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
               </Navigation>
             </HeaderRow>
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
             </Navigation>
           </Drawer>
           <Content>
@@ -43,4 +43,4 @@ class MainNavbar extends Component {
   }
 }
 
-export default MainNavbar;
+export default Navbar;
