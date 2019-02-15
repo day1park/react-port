@@ -4,3 +4,25 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.mobile {
+  color: #ecfdff;
+}
+
+.icon {
+  margin: 30px;
+  display: inline-grid;
+}
+.icon img {
+  height: 50px;
+  width: 50px;
+}
+.icon span {
+  margin-top: 15px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.icon:hover span {
+  opacity: 1;
+}
