@@ -1,46 +1,56 @@
+import React from "react";
 import {
-  Layout,
-  Header,
-  Navigation,
-  Drawer,
-  Content,
-  Textfield,
-  HeaderRow
-} from "react-mdl";
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from "reactstrap";
 
-import React, { Component } from "react";
+export default class Example extends React.Component {
+  constructor(props) {
+    super(props);
 
-class Navbar extends Component {
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
   render() {
     return (
-      <div className="demo-big-content">
-        <Layout>
-          <Header waterfall>
-            <HeaderRow title="Title" />
-            <HeaderRow>
-              <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-              </Navigation>
-            </HeaderRow>
-          </Header>
-          <Drawer title="Title">
-            <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-            </Navigation>
-          </Drawer>
-          <Content>
-            <div className="page-content" />
-          </Content>
-        </Layout>
+      <div>
+        <Navbar color="light" light expand="md">
+          <NavbarBrand href="/">Day Park</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="/">About Me</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#">Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#">Skills</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#">Contact</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
       </div>
     );
   }
 }
-
-export default Navbar;
