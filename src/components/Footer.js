@@ -11,20 +11,22 @@ export default function Footer() {
 
         <span>Github</span>
       </div>
-      <div class="icon">
+      <div className="icon">
         <a href="https://www.linkedin.com/in/day-park" target="_blank">
           <img src="icons/linkedin-w.svg" />
         </a>
 
         <span>LinkedIn</span>
       </div>
+      <div className="footer-contact">
+        <span>daypark2408@gmail.com</span>
+        <span>
+          <a className="mobile" href="tel:0430126695">
+            0430 126 695
+          </a>
+        </span>
+      </div>
       DAY PARK &copy; {new Date().getFullYear()}
-      <span>daypark2408@gmail.com</span>
-      <span>
-        <a className="mobile" href="tel:0430126695">
-          0430 126 695
-        </a>
-      </span>
     </footer>
   );
 }
