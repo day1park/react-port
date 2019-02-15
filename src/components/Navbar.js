@@ -12,6 +12,8 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
+import logo from "../icons/android-chrome-192x192.png";
+import "./Navbar.css";
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -31,6 +33,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="light" expand="md">
+          <img className="Navbar-logo" src={logo} />
           <NavbarBrand href="/">Day Park</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

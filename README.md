@@ -17,3 +17,8 @@
 ## Packages
 
 - react-strap
+
+## Icons
+
+- https://favicon.io/favicon-generator/
+  <!-- - devicon ![devicon](public/icons/devicon-plain.svg) -->

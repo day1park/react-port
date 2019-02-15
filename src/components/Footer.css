@@ -11,7 +11,7 @@ footer {
 }
 
 .icon {
-  margin: 30px;
+  margin: 20px;
   display: inline-grid;
 }
 
@@ -21,7 +21,7 @@ footer {
 }
 
 .icon span {
-  margin-top: 15px;
+  margin-bottom: 15px;
   opacity: 0;
   transition: all 0.5s;
 }
