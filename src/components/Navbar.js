@@ -6,14 +6,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
+  NavLink
 } from "reactstrap";
 import logo from "../icons/android-chrome-192x192.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default class Example extends React.Component {
   constructor(props) {

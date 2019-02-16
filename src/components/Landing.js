@@ -10,10 +10,10 @@ class Landing extends Component {
         <div className="container">
           <Jumbotron>
             <h2> wafadskdfj</h2>
+            <Link to="/">
+              <Button className="primary">something</Button>
+            </Link>
           </Jumbotron>
-          <Link to="/">
-            <Button className="primary">something</Button>
-          </Link>
         </div>
       </div>
     );
