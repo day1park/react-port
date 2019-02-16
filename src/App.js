@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
@@ -8,12 +9,14 @@ import Footer from "./components/Footer";
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
-        <Landing />
+      <Router>
+        <div>
+          <Navbar />
+          <Route exact path="/" component={Landing} />
 
-        <Footer />
-      </div>
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Container, Button } from "react-bootstrap";
+import { Container, Jumbotron, Button } from "react-bootstrap";
 import "./Landing.css";
 
 class Landing extends Component {
@@ -8,7 +8,12 @@ class Landing extends Component {
     return (
       <div className="landing">
         <div className="container">
-          <h1>some image</h1>
+          <Jumbotron>
+            <h2> wafadskdfj</h2>
+          </Jumbotron>
+          <Link to="/">
+            <Button className="primary">something</Button>
+          </Link>
         </div>
       </div>
     );
