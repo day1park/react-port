@@ -3,7 +3,6 @@
   background-color: rgba(128, 87, 211, 0.2);
   background-blend-mode: overlay;
   height: 100vh;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
