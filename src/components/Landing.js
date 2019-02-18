@@ -9,7 +9,9 @@ class Landing extends Component {
       <div className="landing">
         <div className="container">
           <Jumbotron>
-            <h2> wafadskdfj</h2>
+            <div className="col-md-12">
+              <h2> check to see</h2>
+            </div>
             <Link to="/">
               <Button className="primary">something</Button>
             </Link>
