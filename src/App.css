@@ -5,4 +5,5 @@
 body {
   color: #ecfdff;
   background-color: #bfd1d3;
+  box-sizing: border-box;
 }
