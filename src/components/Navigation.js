@@ -5,6 +5,13 @@ import "./Navigation.css";
 class Navigation extends Component {
   render() {
     const sections = ["Home", "Projects", "Skills", "About", "Contact"];
+    const navLinks = sections.map(section => {
+      return (
+        <li>
+          <a href={"#" + section}>{section}</a>
+        </li>
+      );
+    });
 
     return (
       <div>
@@ -12,20 +19,7 @@ class Navigation extends Component {
           <span className="logo">
             <a href="#home">Day Park</a>
           </span>
-          <ul>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#about">About Me</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
+          <ul>{navLinks}</ul>
         </nav>
       </div>
     );
