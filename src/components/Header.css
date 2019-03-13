@@ -24,4 +24,5 @@ header a {
   padding: 1.25rem 2.5rem;
   text-decoration: none;
   border-radius: 0.25rem;
+  display: inline-block;
 }

@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
+import Skills from "./components/Skills";
 import Landing from "./components/Landing";
 import Contact from "./components/Contact";
 import About from "./components/About";
@@ -18,6 +19,7 @@ class App extends Component {
         {/* <Navbar /> */}
         <Navigation />
         <Header />
+        <Skills />
         {/* <div className="content"> */}
         {/* <Route exact path="/" component={Landing} /> */}
         {/* <About /> */}
