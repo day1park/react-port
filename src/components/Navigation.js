@@ -4,24 +4,26 @@ import "./Navigation.css";
 
 class Navigation extends Component {
   render() {
+    const sections = ["Home", "Projects", "Skills", "About", "Contact"];
+
     return (
       <div>
         <nav>
           <span className="logo">
-            <a href="#">Day Park</a>
+            <a href="#home">Day Park</a>
           </span>
           <ul>
             <li>
-              <a href="#">Project</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#">About Me</a>
+              <a href="#about">About Me</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
