@@ -13,6 +13,8 @@ class Header extends Component {
     return (
       <header style={profileStyles}>
         <h1>Hi I'm day park</h1>
+        <p>a full stack web developer</p>
+        <a href="#button">Read More</a>
       </header>
     );
   }
