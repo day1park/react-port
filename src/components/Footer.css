@@ -1,13 +1,11 @@
 footer {
   background-color: #64778d;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+
   font-size: 1.6rem;
   height: 2.5rem;
 }
 
-.mobile {
+/* .mobile {
   color: #ecfdff;
 }
 
@@ -29,4 +27,4 @@ footer {
 
 .icon:hover span {
   opacity: 1;
-}
+} */
