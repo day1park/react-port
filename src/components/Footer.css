@@ -1,0 +1,30 @@
+footer {
+  background-color: #64778d;
+
+  font-size: 1.6rem;
+  height: 2.5rem;
+}
+
+/* .mobile {
+  color: #ecfdff;
+}
+
+.icon {
+  margin: 20px;
+  display: inline-grid;
+}
+
+.icon img {
+  height: 50px;
+  width: 50px;
+}
+
+.icon span {
+  margin-bottom: 15px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.icon:hover span {
+  opacity: 1;
+} */

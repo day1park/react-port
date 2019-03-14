@@ -1,18 +1,9 @@
-.App {
-  text-align: center;
+.content-wrap {
+  padding-bottom: 1.6rem; /* Footer height */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+body {
+  color: #ecfdff;
+  background-color: #bfd1d3;
+  box-sizing: border-box;
 }

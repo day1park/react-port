@@ -1,0 +1,12 @@
+.landing {
+  background-image: url("../icons/palace-roof.jpg");
+  background-color: rgba(128, 87, 211, 0.2);
+  background-blend-mode: overlay;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
