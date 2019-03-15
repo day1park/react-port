@@ -22,7 +22,7 @@ class App extends Component {
         <Skills />
         {/* <div className="content"> */}
         {/* <Route exact path="/" component={Landing} /> */}
-        {/* <About /> */}
+        <About />
         <Contact />
         {/* </div> */}
         <Footer />
