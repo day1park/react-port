@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         {/* <div className="content"> */}
         {/* <Route exact path="/" component={Landing} /> */}
         <About />
+        <Projects />
         <Contact />
         {/* </div> */}
         <Footer />
