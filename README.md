@@ -4,9 +4,21 @@ Website: https://day1park.github.io/
 
 # Table of Contents
 
-1. [Color Scheme](#colors)
+- [Wireframes](#wireframe)
+- [Design](#design)
+- [Trello](#trello)
+- [For the Future](#future)
 
-## Color Scheme <a name="colors"></a>
+## Wireframes <a name="wireframe"></a>
+
+### landing page
+
+The landing / hero Page will contain the navbar and text welcoming to the webpage along with a sliding text feature which will loop through an array of titles. e.g. 'full stack web developer', 'dance enthusiast'
+![wf1](public/images/wf1.png)
+
+## Design <a name="design"></a>
+
+Choice of colors chosen for a modern website feel.
 
 1. #729799
 
@@ -20,11 +32,18 @@ Website: https://day1park.github.io/
 
 ![color](public/images/color.png)
 
+## Icons
+
+- https://favicon.io/favicon-generator/
+
+  <!-- - devicon ![devicon](public/icons/devicon-plain.svg) -->
+
 ## Packages
 
 - react-strap
 
-## Icons
+## Trello
 
-- https://favicon.io/favicon-generator/
-  <!-- - devicon ![devicon](public/icons/devicon-plain.svg) -->
+![trello](public/images/trello.png)
+
+## Future Features
