@@ -11,10 +11,17 @@ Website: https://day1park.github.io/
 
 ## Wireframes <a name="wireframe"></a>
 
-### landing page
+### Landing page
 
 The landing / hero Page will contain the navbar and text welcoming to the webpage along with a sliding text feature which will loop through an array of titles. e.g. 'full stack web developer', 'dance enthusiast'
 ![wf1](public/images/wf1.png)
+
+### Skills component
+
+skills component will consist of 3 skills containers which are seperated into 3 categories. Languages, Frameworks/Libraries and Developer Tools. They will contain icons with skill title next to icon. A feature to be implemented will be, just an icon and on hover a name will slide into view next to it pushing the icon to the left with title on the right.
+
+In phone view when screen is minimized, the skills containers will be view in a single column.
+![wf2](public/images/wf2.png)
 
 ## Design <a name="design"></a>
 
