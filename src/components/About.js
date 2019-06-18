@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <div className="container">
       <h1>About Me</h1>
       <p>
         I have a Bachelor of Arts in Communications, Information Media from the
@@ -20,8 +20,9 @@ export default function About() {
         interactions with the people i have met from different cultures. I have
         made friends with all types of people from all over the world while
         growing my passion for dance, photography and learning languages. All
-        just by listening and understanding rather than speaking. TL;DR I work
-        hard, I dance and I code
+        just by listening and understanding rather than speaking.
+        <br />
+        TL;DR I work hard, I dance and I code
       </p>
     </div>
   );
